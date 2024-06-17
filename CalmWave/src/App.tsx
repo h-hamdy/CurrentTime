@@ -24,8 +24,8 @@ function App() {
   return (
 	<>
     <div className="bg-black w-screen h-screen flex items-center justify-center" style={timerStyle}>
-	<div className="text-white  gap-5 text-8xl font-extrabold flex items-center justify-center">
-      <p>{hours}</p>
+	<div className="text-white  gap-5 text-9xl font-extrabold flex items-center justify-center">
+      <p className="">{hours}</p>
       <span className="text-6xl">:</span>
       <p>{minutes}</p>
       <span className="text-6xl">:</span>
